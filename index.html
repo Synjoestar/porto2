@@ -1,0 +1,163 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Portfolio</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-sun sun"></i>
+            <i class="fas fa-moon moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <section id="home" class="hero">
+      <div class="hero-content" data-aos="fade-up">
+        <div class="logo-container">
+          <img src="/assets/1.jpg" alt="Logo" class="hero-logo" />
+        </div>
+        <h1>Hello, I'm <span class="highlight">Tutel</span></h1>
+        <p class="typewriter">I'm a Human</p>
+        <a href="#skills" class="cta-button" style="margin-bottom: 1rem">View My Skills</a>
+        <a href="#work" class="cta-button">View My Projects</a>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 data-aos="fade-up">Skills</h2>
+      <div class="skills-container" data-aos="fade-up">
+        <div class="terminal">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="terminal-title">skills.exe</div>
+          </div>
+          <div class="terminal-content">
+            <div class="command-line">$ ./list-skills</div>
+            <div class="skill-list">
+              <!-- Programming Languages -->
+              <div class="skill-category">
+                <h3 class="category-title">Programming Languages</h3>
+                <div class="skill-item">
+                  <i class="fab fa-html5"></i>
+                  <span class="typing">HTML5</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-css3"></i>
+                  <span class="typing">CSS</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-js"></i>
+                  <span class="typing">JavaScript</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-python"></i>
+                  <span class="typing">Python</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-php"></i>
+                  <span class="typing">PHP</span>
+                </div>
+              </div>
+
+              <!-- Frameworks -->
+              <div class="skill-category">
+                <h3 class="category-title">Frameworks</h3>
+                <div class="skill-item">
+                  <i class="fab fa-react"></i>
+                  <span class="typing">React</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-node-js"></i>
+                  <span class="typing">Node.js</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-laravel"></i>
+                  <span class="typing">Laravel</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fa-solid fa-code-fork"></i>
+                  <span class="typing">CI</span>
+                </div>
+              </div>
+
+              <!-- Databases -->
+              <div class="skill-category">
+                <h3 class="category-title">Databases</h3>
+                <div class="skill-item">
+                  <i class="fas fa-database"></i>
+                  <span class="typing">MySQL</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-database"></i>
+                  <span class="typing">MongoDB</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-database"></i>
+                  <span class="typing">PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <h2 data-aos="fade-up">Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" data-aos="fade-up">
+          <img src="/assets/68.jpg" alt="Project 1" />
+          <h3>Project One</h3>
+          <p>Web Development</p>
+        </div>
+        <div class="project-card" data-aos="fade-up">
+          <img src="/assets/69.jpg" alt="Project 2" />
+          <h3>Project Two</h3>
+          <p>Web Development E-library</p>
+        </div>
+        <div class="project-card" data-aos="fade-up">
+          <img src="/assets/70.jpg" alt="Project 3" />
+          <h3>Project Three</h3>
+          <p>Display Information Mosque</p>
+        </div>
+      </div>
+      <a href="#" class="view-more-button">View More</a>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-content" data-aos="fade-up">
+        <h2>Let's Connect</h2>
+        <div class="social-links">
+          <a href="https://github.com/Synjoestar" target="blink" class="social-icon"><i class="fab fa-github"></i>GitHub</a>
+          <a href="https://www.linkedin.com/in/surya-nugroho-38aa27336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blink" class="social-icon"><i class="fab fa-linkedin"></i>LinkedIn</a>
+          <a href="https://youtube.com/@suryanugroho6171?si=Il7mTRpd3fLYYT5K" target="blink" class="social-icon"><i class="fab fa-youtube"></i>Youtube</a>
+          <a href="https://www.instagram.com/utchup?igsh=YzljYTk1ODg3Zg==" target="blink" class="social-icon"><i class="fab fa-instagram"></i>Instagram</a>
+        </div>
+        <a href="suryayusf@gmail.com" class="email-link">suryayusf@gmail.com</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Tutel.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
